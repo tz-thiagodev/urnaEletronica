@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0px;
+}
+
+div#templateUrna {
+    background-color: white;
+    width: 600px;
+    height: 700px;
+
+}
+
+div#telaUrna {
+    background-color: rgb(255, 162, 162);
+    width: 580px;
+    height: 200px;
+
+    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin: 10px auto;
+
+    display: grid;
+    grid-template-columns: 210px 370px;
+    gap: 15px;
+
+}
+
+div#imagemCandidato {
+    background-color: rgb(96, 96, 96);
+    width: 200px;
+    height: 190px;
+    position: sticky;
+
+    margin: auto;
+
+}
+
+div#templateBotoes {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 580px;
+    height: 470px;
+    margin: 0px auto;
+
+}
+
+div#templateBotoes button {
+    display: flex;
+    background-color: rgb(255, 96, 96);
+    width: 100px;
+    height: 70px;
+    margin: 0px auto;
+
+}
+
+div#botaoEscolha {
+    place-self: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+
+}
+
+div#botaoEscolha button {
+
+    background-color: rgb(255, 96, 96);
+    width: 200px;
+    height: 135px;
+    margin: 0px auto;
+
+}
+
+div#botaoNumero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+div#botaoNumero button {
+    width: 111px;
+    height: 90px;
+    margin: 0px auto;
+}
